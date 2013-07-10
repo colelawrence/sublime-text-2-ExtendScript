@@ -1,0 +1,14 @@
+[
+	{
+		"caption": "ExtendScript: Execute Adobe Illustrator Script"
+	,	"command": "execute_ai_script"
+	}
+,	{
+		"caption": "ExtendScript: Execute After Effects Script"
+	,	"command": "execute_ae_script"
+	}
+,	{
+		"caption": "ExtendScript: Execute Photoshop Script"
+	,	"command": "execute_ps_script"
+	}
+]

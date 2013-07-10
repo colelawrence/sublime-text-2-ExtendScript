@@ -1,0 +1,11 @@
+{
+	"file_export_prefix": "sublime_"
+,	"save_first": true
+/* Change execution file name extension to .js, */
+,	"coffee_mode": true
+/* Software versions e.g. "CS5" */
+, 	"AE_version":"CS6"
+, 	"AI_version":"CS6"
+, 	"PS_version":"CS6"
+
+}
