@@ -1,11 +1,18 @@
 {
 	"file_export_prefix": "sublime_"
 ,	"save_first": true
-/* Change execution file name extension to .js, */
-,	"coffee_mode": true
-/* Software versions e.g. "CS5" */
-, 	"AE_version":"CS6"
-, 	"AI_version":"CS6"
-, 	"PS_version":"CS6"
+/* Change execution file name extension to .js,
+    which means that if you Execute "./color_gui.coffee",
+    Then it will actually execute "./color_gui.js",
+    Which only work if you have a coffee watch and compile
+      process running and creating that js file.*/
+, "coffee_mode": true
+/* Do copy the script to scripts folder,
+    If true, requires Sublime Text requires to be run as admin! */
+, "copy_to_software_scripts": false
+/* Software base folders */
+, 	"AE_folder":"C:\\Program Files\\Adobe\\Adobe After Effects CS5"
+, 	"AI_folder":"C:\\Program Files (x86)\\Adobe\\Adobe Illustrator CS4"
+, 	"PS_folder":"C:\\Program Files\\Adobe\\Adobe Photoshop CS4 (64 Bit)"
 
 }
